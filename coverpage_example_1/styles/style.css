@@ -1,0 +1,129 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto Slab', serif;
+    height: 100vh;
+    color: #FFFF;
+}
+
+.nav_container {
+    background-color: none;
+    margin: 0%;
+    text-transform: uppercase;
+    padding: 0.1vh;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: larger;
+    float: left;
+}
+
+.logo li {
+    border-bottom: 1px solid #FFFF;
+    padding: 1%;
+    opacity: 90%;
+}
+
+.nav_container ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav_container li {
+    display: inline;
+    overflow: hidden;
+}
+
+.links {
+    float: right;
+    overflow: hidden;
+    margin-right: 5%;
+}
+a {
+    color: white;
+    opacity: 90%;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 1px solid white;
+    opacity: 90%;
+    transition-duration: 1s;
+}
+
+.content h2 {
+    text-transform: uppercase;
+    font-size: xx-large;
+    text-shadow: 1px 2px 1px #001400;
+}
+
+.coverpage {
+    background-image: url(../img/coverpage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: center;
+    padding: 1%;
+}
+
+.content {
+    position: relative;
+    top: 30%;
+    text-align: center;
+    align-items: center;
+}
+
+.content hr {
+    width: 50%;
+    height: 5px;
+    background-color: #FFFF;
+    margin-bottom: 3%;
+}
+
+.button {
+    background: none;
+    color: #FFFF;
+    padding: 0.5%;
+    margin: 1%;
+    border-radius: 25px 0px 25px 0px;
+    border: 1px solid #FFFF;
+    transition: 1s;
+}
+
+.button:hover {
+    background-color: #FFFF;
+    color: black;
+    transition-duration: 0.5s;
+    border-color: #FFFF;
+}
+
+.black-section {
+    background-color: black;
+    padding: 30%;
+    padding-top: 45%;
+    column-count: 2;
+}
+
+.tree {
+    position: relative;
+    text-align: center;
+    top: 30%;
+    border-color: 5px solid red;
+}
+
+.tree img {
+    width: 100%;
+    border-bottom: 25%;
+    filter: grayscale(50%);
+    border-radius: 0 0 5% 5%;
+}
+
+.black-section iframe {
+    border-radius: 2%;
+    border: 1px solid #FFFF;
+}
