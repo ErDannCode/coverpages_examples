@@ -8,10 +8,10 @@ Aquí os estaré enseñando algunos ejemplos de portadas, en este repositorio se
 
 ---
 
-### License
+### Licencia
 
-This project is under the [MIT License](./LICENSE.md)
+Este proyecto está bajo la licencia [MIT License](./LICENSE.md)
 
-### Other languages
+### Otros lenguajes
 
-- [Español](./README-español.md)
+- [English](./README.md)
